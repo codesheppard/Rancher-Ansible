@@ -1,3 +1,8 @@
+# Attribution
+
+Forked with much thanks from https://github.com/galal-hussein/Rancher-Ansible
+
+
 # Rancher-Ansible
 
 This playbook will install Rancher platform (latest version) and register hosts automatically with Rancher, this playbook can be used to set up Rancher environment without manually registering each host with Rancher.
