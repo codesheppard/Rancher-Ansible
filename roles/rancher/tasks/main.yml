@@ -2,7 +2,7 @@
 - name: Pull and run the Rancher/server contianer
   docker:
       name: "{{ rancher_name }}"
-      image: rancher/server:latest
+      image: "rancher/server:{{ rancher_server_version }}"
       restart_policy: always
       ports: 
         - "{{ rancher_port }}:8080"
